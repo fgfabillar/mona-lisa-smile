@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Leonardo Image */
+.leonardo{
+  position: fixed;
+  bottom: -5px;
+  left: -5px;
+  width: 600px;
+  height: auto;
+  z-index: 3;
+}
+
+.leonardo img{
+  width: 100%;
+  height: auto;
+}
+
+/* Callout Box */
+.callout-box{
+  position: fixed;
+  top: 50%;
+  right: 10%;
+  transform: translate(0, -50%);
+  width: 300px;
+  background-color: white;
+  border-radius: 30px; 
+  padding: 210px;
+  z-index:3;
+}
+
+.callout-arrow{
+  position: absolute;
+  top: 102px;
+  right: 660px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 150px 60px 40px;
+  border-color: white transparent transparent transparent;
+  rotate: 170deg;
+  z-index:3;
+}
+
+/* Callout Text */
+.text{
+  font-family: 'Poppins';
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 600px;
+  padding: 40px;
+  position: relative;
+  top: 31%;
+  left: 44%;
+  z-index: 50;
+}
+
+/* Arrow Button */
+.arrow-button{
+  position: fixed;
+  top: 80%;
+  right: 10%;
+  width: 100px;
+  height: 100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+  
+.arrow-container{
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+  
+.arrow-container:before{
+  width: 52px;
+  height: 52px;
+  content: "";
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+  
+.arrow{
+  display:block;
+  height: 15px; 
+  width: 15px;
+  border: 1px solid black;
+  border-width: 3px 3px 0 0;
+  transform: rotate(45deg);
+}
+
+.arrow:hover{
+  cursor: pointer;
+}
+
+/* Yes Button */
+.yes-button{
+  cursor: pointer;
+  position: fixed;
+  top: 80%;
+  right: 30%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 25px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+/* I am Ready Button */
+.ready-button{
+  cursor: pointer;
+  position: fixed;
+  top: 80%;
+  right: 27%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 25px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
